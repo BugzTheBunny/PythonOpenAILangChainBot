@@ -7,6 +7,9 @@
 הקוד מקור נמצא כאן - 
 https://github.com/BugzTheBunny/PythonOpenAILangChainBot
 
+מה בונים? משהו כזה - 
+https://huggingface.co/spaces/BugzTheBunny1/LangChainBasicQABot
+
 ---
 # הכנת סביבה
 יאאלה נתחיל בהכנות! (אני יוצא מנקודת הנחה שכבר התקנתם פייתון כמובן)

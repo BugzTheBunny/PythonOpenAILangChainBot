@@ -1,7 +1,12 @@
-# PythonOpenAILangChainBot
+![img.png](images/Logo.png)
+
 ## מדריך ליצירת בוט בסיסי בעזרת פייתון
 
-במדריך הזה ניצור בוט בסיסי בעזרת פייתון 3.12, OpenAI, LangChain וStreamlit וכמובן איך אפשר בלי באמת לשחרר אותו לעולם, נעשה לו דיפלוי בHugging Face
+במדריך הזה ניצור בוט בסיסי בעזרת פייתון 3.12, OpenAI, LangChain וStreamlit 
+
+![Alt text](/images/image.png)
+
+וכמובן איך אפשר בלי באמת לשחרר אותו לעולם, נעשה לו דיפלוי בHugging Face
 המדריך יהיה בHigh Level ולא ירד לפרטי פרטים על איך הLLM עובד, המטרה של המדריך הזה היא להרים בוט בסיסי בזריזות, למי שכבר יש ידע כלשהו בתכנות, כלומר זה מאוד אבסטרקטי.
 
 הקוד מקור נמצא כאן - 
@@ -70,8 +75,8 @@ OPENAI_API_KEY="sk-קוד סופר דופר סודי"
 
 אחרי זה ניצור משתמש בHuggingFace, וניצור שם ספייס חדש.
 
-1. תצרו משתמש כאן - https://huggingface.co/join 
-2. תצרו ספייס חדש כאן - https://huggingface.co/new-space 
+1. תצרו משתמש [כאן](https://huggingface.co/join )
+2. תצרו ספייס חדש [כאן](https://huggingface.co/new-space)
     - תבחרו שם לפרוייקט שלכם
     - תבחרו בstreamlit בתור הSDK
     - תבחרו את הגירסא החינמית כמו בתמונה
@@ -128,7 +133,7 @@ def get_model(model_name: str) -> OpenAI:
     )
 ```
 
- לגבי `temperature` הפרמטר הזה מגדיר לנו כמה אנחנו מסכימים למודל  "להזות" מוזמנים לקרוא על כך כאן - https://deepchecks.com/glossary/llm-parameters/#:~:text=LLM%20Temperature&text=A%20higher%20temperature%20value%20typically,to%20the%20most%20likely%20prediction.
+ לגבי `temperature` הפרמטר הזה מגדיר לנו כמה אנחנו מסכימים למודל  "להזות" מוזמנים לקרוא על כך [כאן](https://deepchecks.com/glossary/llm-parameters/#:~:text=LLM%20Temperature&text=A%20higher%20temperature%20value%20typically,to%20the%20most%20likely%20prediction).
  
 אחר כך, ניצור פונקציה שתקבל את האינפוט של המשתמש, ותחזיר תשובה מLLM שלנו.
 
